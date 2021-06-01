@@ -1,0 +1,665 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1620px;
+}
+.mainDiv{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.leftDiv{
+    padding: 25px 20px 10px 25px;
+  
+}
+.rightDiv{
+    padding:25px 20px 10px 10px;
+    /* margin: 20px 10px; */
+    background:#F7F9FB;
+}
+.logoMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 20px 0px;
+}
+.image1{
+    align-self: center;
+    text-align: start;
+}
+.image2{
+    align-self: center;
+    text-align: end;
+}
+
+div>span>a>img{
+    width: 60px;
+    margin: 0 20px 0 20px;
+}
+
+.infoMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 20px 0px; 
+}
+.mainDoctorInfo1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mainDoctorInfo1>div>img{
+    width: 50%;
+    padding: 5px;
+    margin: 10px 50px 10px 125px;
+    box-shadow: black 0px 4px 10px 0px;
+}
+.imgDoctor{
+    background: #EC632F;
+    border-radius: 100%;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nameDoctor{
+    font-size: 22px;
+    color:#EC632F;
+    padding: 25px 25px 0px 25px;
+}
+.jobDoctor{
+    font-size: 18px;
+    color:#707070bc;
+    padding: 0px 25px 0px 25px;
+}
+.cleartooth{
+    font-size: 20px;
+    background: #F59166;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 0px auto;  
+    outline: none; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.cleartooth:hover{
+    background: #f3733c;
+    outline: none;
+    transition: all 0.5s;
+}
+.cleartooth:focus{
+    outline: none;
+}
+.profileDoctor{
+    font-size: 22px;
+    background: #F59166;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 1px;
+    margin: 15px 50px;  
+    outline: none;
+}
+.profileDoctor:hover{
+    background: #f3733c;
+    outline: none;
+    transition: all 0.5s;
+}
+.profileDoctor:focus{
+    outline: none;
+}
+.profileDoctor>a{
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+.mainDoctorInfo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    font-size: 20px;
+    color: #707070bc;
+    
+}
+.Age1{
+border-left: 2px solid #928d8d7e;
+padding-left: 5px;
+}
+.Age2{
+border-left: 2px solid #928d8d7e;
+
+    padding-left: 5px;
+}
+label>strong:nth-child(1){
+     color: #d95942;
+}
+
+.bodyInfo{
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    /* background:#133c65; */
+    background:#F7F9FB;
+    margin: 25px 40px 0px 40px;
+    padding: 10px;
+    border-radius: 30px;
+    height: 55vh;
+}
+
+.infoPatient{
+    background: white;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 30px;
+}
+.dataPatient{
+    background: white;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* test tooth */
+.tooth-11{
+    fill: white;
+    cursor: pointer;
+}
+.tooth-11:hover{
+fill: #245a0b;
+cursor: pointer;
+}
+.tooth-12{
+    fill: white;
+    cursor: pointer;
+}
+.tooth-12:hover{
+fill: #245a0b;
+cursor: pointer;
+}
+/* end test */
+.mainImageDoctor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    margin: 0 0 25px 0;
+}
+
+.mainImageDoctor>img{
+    width: 70px;
+}
+.nameDoctorDR{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #707070;
+    align-self: center;
+    text-align: center;
+}
+
+.nameDoctorDR>span:nth-child(1){
+   color: #70707076;
+}
+
+.noteDoctor{
+    display: grid;
+    grid-template-columns: 1fr;  
+    margin: 0 0 25px 0;
+   
+}
+.noteDoctor>label{
+    font-size:30;
+    color:#F1A584;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 0px 0px 5px ;
+}
+
+.addNote{
+    display: grid;
+    grid-template-columns: 1fr;  
+    margin: 10px;
+    padding: 5px;
+    background: white;
+    border-radius: 30px;
+}
+
+.addNote>textarea{
+    padding: 15px;
+    margin: 10px;
+    border: none;
+   
+}
+.addNote>textarea:focus{
+    outline: none;
+}
+
+
+.addNote>span{
+    
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    text-align: center;
+}
+
+.addNote>span>button{
+    color: white;
+    font-size: 20px;
+    background: #F59166;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    margin: 5px 15px; 
+}
+.addNote>span>button:focus{
+    outline: none;
+}
+
+.showAllnote{
+    padding: 50px;
+    text-align: center;
+}
+.showAllnote>a{
+    text-decoration: none;
+    background: #dd8d58;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    font-style: 22px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sidemenu>img{
+    position: fixed;
+    width: 25px;
+    height: 50px;
+    top: 345px;
+    left:5px;
+    right: 0;
+    margin: 0;
+    padding: 0px;
+    transition: linear 0.5s;
+    z-index: 1;
+    /* display: none; */  
+}
+.sidemenu>img:nth-child(2){
+    display: none;   
+
+}
+
+.closesmoth{  
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+  }
+.sidmenu1{
+    /* background: #3f35aff1; */
+    position: fixed;
+    width: 150px;
+    height: auto;
+    top: 120px;
+    left: -220px;
+    right: 0;
+    padding: 0px;
+    /* transition: ease-in-out 0.8s; */
+    
+}
+
+.svgedit{
+    position: fixed;
+    width: 260px;
+    height: auto;
+    top: 60px;
+    left: -220px;
+    right: 0;
+    padding: 0px;
+    /* transition: ease-in-out 0.5s; */
+}
+
+.sidemenu>ul>li{
+    margin: 10px;
+    padding: 10px; 
+    color: white;
+    text-align: center;
+    font-size: 22px;   
+}
+
+.sidemenu>ul>li>a{
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
+.svg_menu{
+   fill:#7323fcef;
+}
+.sidemenu>ul>li>a:hover{
+    text-decoration: none;
+    background: none;
+    color: #8d8383;
+    transition: ease-in-out 0.5s;
+}
+
+
+@media screen and (max-width: 750px) {
+    div>span>a>img{
+        width: 40px;
+        margin: 0 20px 0 20px;
+        transition: ease-in-out 0.5s;
+    }
+    .logoMain>img{
+        width: 80px;
+        transition: ease-in-out 0.5s;
+    }
+    .showAllnote{
+        padding: 5px;
+        transition: ease-in-out 0.5s;
+    }
+    .showAllnote>a{
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        transition: ease-in-out 0.5s;
+    }
+    .nameDoctor{
+        font-size: 15px;
+        padding: 25px 5px 5px 5px;
+        transition: ease-in-out 0.5s;
+    }
+    .mainDoctorInfo1>div>img{
+        width: 75px;
+        padding: 5px;
+        margin: 25px 15px; 
+        transition: ease-in-out 0.5s;
+    }
+    .jobDoctor{
+        font-size: 12px;
+        color:#707070bc;
+        padding: 0px 5px 0px 5px;
+        transition: ease-in-out 0.5s;
+    }
+    .profileDoctor{
+        font-size: 15px;
+        margin: 1px 20px 1px 20px; 
+        padding:1px ; 
+        transition: ease-in-out 0.5s;
+    }
+    
+    .mainDoctorInfo2{
+        
+        padding: 5px;
+        margin: 5px;
+        align-items: center;
+        font-size: 15px;
+       color: #707070bc;
+       transition: ease-in-out 0.5s;
+    }
+    .mainDoctorInfo2>label>strong{
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+        font-size: 11px;
+        transition: ease-in-out 0.5s;
+    }
+    .mainDoctorInfo2>label{
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+        font-size: 10px;
+        transition: ease-in-out 0.5s;
+    }
+    
+    
+    /* .sidemenu>ul>li{
+        margin: 10px;
+        padding: 10px; 
+        color: white;
+        text-align: start;
+        font-size: 15px;
+        transition: linear 0.5s;
+    } */
+    .bodyInfo{
+        display: grid;
+        grid-template-columns: 1fr; 
+        margin: 30px 40px 0px 40px;
+        padding: 10px;
+        border-radius: 30px;
+        height: 100vh;
+        transition: linear 0.5s;
+    }
+    .rightDiv{
+        padding:20px 15px 5px 5px;
+        /* margin: 20px 10px; */
+        background:#F7F9FB;
+        transition: linear 0.5s;
+    }
+    .mainImageDoctor>img{
+        width: 50px;
+        transition: linear 0.5s;
+    }
+    .mainImageDoctor{
+        display: grid;
+        grid-template-columns: 1fr 3fr; 
+        transition: linear 0.5s; 
+    }
+    .nameDoctorDR{
+        font-size: 15px;
+        align-self: center;
+        text-align: center;
+        transition: linear 0.5s;
+    }
+    .addNote{
+        display: grid;
+        grid-template-columns: 1fr;  
+        margin: 1px;
+        padding: 1px;
+        background: white;
+        border-radius: 30px;
+    }
+    .addNote>textarea{
+        padding: 5px;
+        margin: 5px;
+        border: none;
+        border-radius: 30px;
+    }
+    .addNote>textarea::placeholder{
+       font-size: 12px;
+       text-align: center;
+    }
+    
+    .addNote>span{
+        padding: 1px;
+        margin: 1px;
+    }
+
+    .addNote>span>button{
+        font-size: 15px;
+        padding: 5px;
+        margin: 1px 5px; 
+    }
+
+}
+
+@media screen and (max-width: 1287px) {
+    .sidemenu>img{
+        top: 320px;
+    }
+
+    div>span>a>img{
+        width: 40px;
+        margin: 0 20px 0 20px;
+        transition: ease-in-out 0.5s;
+    }
+    .logoMain>img{
+        width: 80px;
+        transition: ease-in-out 0.5s;
+    }
+    .showAllnote{
+        padding: 5px;
+        transition: ease-in-out 0.5s;
+    }
+    .showAllnote>a{
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        transition: ease-in-out 0.5s;
+    }
+    .nameDoctor{
+        font-size: 15px;
+        padding: 25px 5px 5px 5px;
+        transition: ease-in-out 0.5s;
+    }
+    .mainDoctorInfo1>div>img{
+        width: 75px;
+        padding: 5px;
+        margin: 25px 15px; 
+        transition: ease-in-out 0.5s;
+    }
+    .jobDoctor{
+        font-size: 12px;
+        color:#707070bc;
+        padding: 0px 5px 0px 5px;
+        transition: ease-in-out 0.5s;
+    }
+    .profileDoctor{
+        font-size: 15px;
+        margin: 1px 20px 1px 20px; 
+        padding:1px ; 
+        transition: ease-in-out 0.5s;
+    }
+    
+    .mainDoctorInfo2{
+        
+        padding: 5px;
+        margin: 5px;
+        align-items: center;
+        font-size: 15px;
+       color: #707070bc;
+       transition: ease-in-out 0.5s;
+    }
+    .mainDoctorInfo2>label>strong{
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+        font-size: 11px;
+        transition: ease-in-out 0.5s;
+    }
+    .mainDoctorInfo2>label{
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+        font-size: 10px;
+        transition: ease-in-out 0.5s;
+    }
+    /* .sidmenu1{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        bottom: 10%;
+        left: -220px;
+        right: 0;
+        padding: 0px;
+        transition: linear 0.8s;
+    } */
+    /* help */
+    /* .svgedit{
+        position: fixed;
+        width: 50px;
+        height: auto;
+        bottom: -10%;
+        left: -220px;
+        right: 0;
+        padding: 0px;
+       
+    } */
+    /* .sidemenu>ul>li{
+        margin: 10px;
+        padding: 10px; 
+        color: white;
+        text-align: center;
+        font-size: 12px;   
+    } */
+    
+    /* .sidemenu>ul>li>a{
+        text-decoration: none;
+        background: none;
+        color: white;
+    } */
+    
+ 
+    .bodyInfo{
+        display: grid;
+        grid-template-columns: 1fr; 
+        margin: 30px 40px 0px 40px;
+        padding: 10px;
+        border-radius: 30px;
+        height: 100vh;
+        transition: linear 0.5s;
+    }
+    .rightDiv{
+        padding:20px 15px 5px 5px;
+        /* margin: 20px 10px; */
+        background:#F7F9FB;
+        transition: linear 0.5s;
+    }
+    .mainImageDoctor>img{
+        width: 50px;
+        transition: linear 0.5s;
+    }
+    .mainImageDoctor{
+        display: grid;
+        grid-template-columns: 1fr 3fr; 
+        transition: linear 0.5s; 
+    }
+    .nameDoctorDR{
+        font-size: 15px;
+        align-self: center;
+        text-align: center;
+        transition: linear 0.5s;
+    }
+    .addNote{
+        display: grid;
+        grid-template-columns: 1fr;  
+        margin: 1px;
+        padding: 1px;
+        background: white;
+        border-radius: 30px;
+    }
+    .addNote>textarea{
+        padding: 5px;
+        margin: 5px;
+        border: none;
+        border-radius: 30px;
+    }
+    .addNote>textarea::placeholder{
+       font-size: 12px;
+       text-align: center;
+    }
+    
+    .addNote>span{
+        padding: 1px;
+        margin: 1px;
+    }
+
+    .addNote>span>button{
+        font-size: 15px;
+        padding: 5px;
+        margin: 1px 5px; 
+    }
+
+}
+

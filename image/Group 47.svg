@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="67.301" viewBox="0 0 121 67.301">
+  <g id="Group_47" data-name="Group 47" transform="translate(-50 -60)">
+    <g id="logo" transform="translate(0 10)">
+      <text id="DENTA" transform="translate(50 80)" fill="rgba(236,99,47,0.8)" font-size="32" font-family="Ubuntu"><tspan x="0" y="0">D</tspan><tspan y="0" fill="#707070">ENTA</tspan></text>
+      <text id="L" transform="translate(154 80)" fill="rgba(236,99,47,0.8)" font-size="32" font-family="Ubuntu"><tspan x="0" y="0">L</tspan></text>
+      <text id="_C" data-name=" C" transform="translate(67.485 110.407) rotate(-10)" fill="rgba(112,112,112,0.57)" font-size="35" font-family="Ubuntu" opacity="0.3"><tspan x="0" y="0"> </tspan><tspan y="0" fill="rgba(255,83,9,0.57)">C</tspan></text>
+      <text id="_L" data-name=" L" transform="translate(84 102)" fill="rgba(255,83,9,0.57)" font-size="31" font-family="Ubuntu" opacity="0.3"><tspan x="0" y="0" xml:space="preserve"> L</tspan></text>
+      <text id="INIC" transform="translate(107 107)" fill="#707070" font-size="29" font-family="Ubuntu" opacity="0.3"><tspan x="0" y="0">INIC</tspan></text>
+    </g>
+  </g>
+</svg>
